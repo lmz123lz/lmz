@@ -1,0 +1,10 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,button,textarea,p,th,td { margin:0; padding:0; }
+.head {
+    background-color: rgb(103, 210, 252);
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,144 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,button,textarea,p,th,td { margin:0; padding:0; }
+html body{min-width: 1200px;}
+.aslide{
+    display: flex;
+    flex-direction: row;
+}
+.aslide .left {
+    width: 900px !important;
+    height: 646px;
+    float: left;
+    overflow: hidden;
+    background: url("../../assets/03.jpg");
+}
+
+.left .tips {
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgb(151, 235, 250);
+    box-shadow: 13px 11px 23px rgb(151, 188, 243);
+}
+
+.left .tips p {
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: border;
+    margin: 0 auto;
+    padding-top: 48px;
+    /* border:1px solid black; */
+}
+
+.left .tips .beginButton {
+    /* border:1px solid black; */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.datiqu {
+    width: 750px;
+    height: 500px;
+    margin: 64px auto;
+    border: 1px solid black;
+    background-color: rgb(238, 236, 218);
+}
+.aslide h4{
+    color: rgb(170, 43, 230);
+    transform: translate(30px,30px);
+}
+
+.datiqu .time {
+    width: 250px;
+    height: 40px;
+    float: right;
+}
+
+.el-radio__label {
+    font-size: 20px;
+    padding-left: 27px;
+}
+
+.el-radio {
+    color: black;
+}
+
+.el-radio__inner {
+    border: 1px solid #dcdfe6;
+    border-radius: 100%;
+    width: 19px;
+    height: 19px;
+    background-color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    top: 19px;
+}
+
+.datiqu .middle {
+    width: 500px;
+    height: 270px;
+    margin: 50px 0 0 50px;
+}
+
+.nextButton {
+    width: 205px;
+    height: 40px;
+    margin: 35px auto;
+}
+
+.right {
+    height: 646px;
+    width: 400px;
+    background: url("../../assets/04.jpg");
+    float: right;
+}
+
+.right .box {
+    width: 100%;
+    height: 200px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right .rightbox1 {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin: 10px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.el-radio,
+.el-radio__inner,
+.el-radio__input {
+    position: relative;
+    display: block;
+}
+
+.el-radio__input {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* .tankuang {
+width: 400px;
+height: 200px;
+line-height: 200px;
+text-align: center;
+font-size: 20px;
+font-weight: border;
+color: white;
+background-color: pink;
+} */
+.jiao {
+    position: relative;
+    left: 150px;
+    top: 10px
+}
